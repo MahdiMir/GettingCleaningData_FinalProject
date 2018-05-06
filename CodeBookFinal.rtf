@@ -1,0 +1,188 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red10\green77\blue204;\red27\green31\blue34;
+\red10\green77\blue204;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18039;\cssrgb\c1176\c40000\c83922;\cssrgb\c14118\c16078\c18039;
+\cssrgb\c1176\c40000\c83922;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\})}{\leveltext\leveltemplateid301\'02\'00);}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\margl1440\margr1440\vieww33400\viewh18320\viewkind0
+\deftab720
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f0\i\b\fs36 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 \outl0\strokewidth0 \strokec2 Data source\
+
+\i0\b0\fs28 \ulnone This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here:\'a0{\field{\*\fldinst{HYPERLINK "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"}}{\fldrslt \cf3 \strokec3 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones}}\cf3 \strokec3 \
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+
+\i\b\fs28 \cf4 \expnd0\expndtw0\kerning0
+Experimental design and background:\
+
+\i0\b0 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.\
+
+\i\b \
+Raw data: \
+
+\i0\b0 Using smartphone\'92s embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.\
+
+\i\b \
+Processed data:\
+
+\i0\b0 The experiments have been video-recorded to label the data manually. Each volunteer was mentioned a unique number reported as an id for relating data from different sensors. For each record (each readings) this variables are reported: \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl288\slmult1\partightenfactor0
+\ls1\ilvl0\cf4 \kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+Triaxial Angular velocity from the gyroscope. \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+A 561-feature vector with time and frequency domain variables. \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+Its activity label. \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}\expnd0\expndtw0\kerning0
+An identifier of the subject who carried out the experiment.\
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+\cf4 \
+
+\i\b\fs36 \cf4 \ul \ulc4 Tidy data set description\cf5 \ulc5 \
+
+\fs28 \cf4 \ulnone \
+The variables in the tidy data:\
+
+\i0\b0 Tidy data contains 180 rows (30 subject each has 6 activities) and 82 columns. Each row has averaged variables for each subject and each activity.\
+\cf5 \
+
+\b \cf4 Only all the variables estimated from mean and standard deviation in the tidy set were kept.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl288\slmult1\partightenfactor0
+\ls2\ilvl0
+\b0 \cf4 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+mean(): Mean value\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+std(): Standard deviation\
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+\cf5 \
+\cf4 The data were averaged based on subject and activity group.\
+Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl288\slmult1\partightenfactor0
+\ls3\ilvl0\cf4 \kerning1\expnd0\expndtw0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+WALKING\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+WALKING_UPSTAIRS\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+WALKING_DOWNSTAIRS\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+SITTING\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+STANDING\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	6.	}\expnd0\expndtw0\kerning0
+LAYING\
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+\cf5 \
+\cf4 The tidy data contains 180 rows (30 subject each has 6 activities)  and 82 columns (79 variables, SubjectId, activityType and activityId).\
+\pard\pardeftab720\li360\ri0\sl288\slmult1\partightenfactor0
+\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	1)	}subjectId\
+{\listtext	2)	}activityId\
+{\listtext	3)	}tBodyAcc-mean()-X\
+{\listtext	4)	}tBodyAcc-mean()-Y\
+{\listtext	5)	}tBodyAcc-mean()-Z\
+{\listtext	6)	}tBodyAcc-std()-X\
+{\listtext	7)	}tBodyAcc-std()-Y\
+{\listtext	8)	}tBodyAcc-std()-Z\
+{\listtext	9)	}tGravityAcc-mean()-X\
+{\listtext	10)	}tGravityAcc-mean()-Y\
+{\listtext	11)	}tGravityAcc-mean()-Z\
+{\listtext	12)	}tGravityAcc-std()-X\
+{\listtext	13)	}tGravityAcc-std()-Y\
+{\listtext	14)	}tGravityAcc-std()-Z\
+{\listtext	15)	}tBodyAccJerk-mean()-X\
+{\listtext	16)	}tBodyAccJerk-mean()-Y\
+{\listtext	17)	}tBodyAccJerk-mean()-Z\
+{\listtext	18)	}tBodyAccJerk-std()-X\
+{\listtext	19)	}tBodyAccJerk-std()-Y\
+{\listtext	20)	}tBodyAccJerk-std()-Z\
+{\listtext	21)	}tBodyGyro-mean()-X\
+{\listtext	22)	}tBodyGyro-mean()-Y\
+{\listtext	23)	}tBodyGyro-mean()-Z\
+{\listtext	24)	}tBodyGyro-std()-X\
+{\listtext	25)	}tBodyGyro-std()-Y\
+{\listtext	26)	}tBodyGyro-std()-Z\
+{\listtext	27)	}tBodyGyroJerk-mean()-X\
+{\listtext	28)	}tBodyGyroJerk-mean()-Y\
+{\listtext	29)	}tBodyGyroJerk-mean()-Z\
+{\listtext	30)	}tBodyGyroJerk-std()-X\
+{\listtext	31)	}tBodyGyroJerk-std()-Y\
+{\listtext	32)	}tBodyGyroJerk-std()-Z\
+{\listtext	33)	}tBodyAccMag-mean()\
+{\listtext	34)	}tBodyAccMag-std()\
+{\listtext	35)	}tGravityAccMag-mean()\
+{\listtext	36)	}tGravityAccMag-std()\
+{\listtext	37)	}tBodyAccJerkMag-mean()\
+{\listtext	38)	}tBodyAccJerkMag-std()\
+{\listtext	39)	}tBodyGyroMag-mean()\
+{\listtext	40)	}tBodyGyroMag-std()\
+{\listtext	41)	}tBodyGyroJerkMag-mean()\
+{\listtext	42)	}tBodyGyroJerkMag-std()\
+{\listtext	43)	}fBodyAcc-mean()-X\
+{\listtext	44)	}fBodyAcc-mean()-Y\
+{\listtext	45)	}fBodyAcc-mean()-Z\
+{\listtext	46)	}fBodyAcc-std()-X\
+{\listtext	47)	}fBodyAcc-std()-Y\
+{\listtext	48)	}fBodyAcc-std()-Z\
+{\listtext	49)	}fBodyAcc-meanFreq()-X\
+{\listtext	50)	}fBodyAcc-meanFreq()-Y\
+{\listtext	51)	}fBodyAcc-meanFreq()-Z\
+{\listtext	52)	}fBodyAccJerk-mean()-X\
+{\listtext	53)	}fBodyAccJerk-mean()-Y\
+{\listtext	54)	}fBodyAccJerk-mean()-Z\
+{\listtext	55)	}fBodyAccJerk-std()-X\
+{\listtext	56)	}fBodyAccJerk-std()-Y\
+{\listtext	57)	}fBodyAccJerk-std()-Z\
+{\listtext	58)	}fBodyAccJerk-meanFreq()-X\
+{\listtext	59)	}fBodyAccJerk-meanFreq()-Y\
+{\listtext	60)	}fBodyAccJerk-meanFreq()-Z\
+{\listtext	61)	}fBodyGyro-mean()-X\
+{\listtext	62)	}fBodyGyro-mean()-Y\
+{\listtext	63)	}fBodyGyro-mean()-Z\
+{\listtext	64)	}fBodyGyro-std()-X\
+{\listtext	65)	}fBodyGyro-std()-Y\
+{\listtext	66)	}fBodyGyro-std()-Z\
+{\listtext	67)	}fBodyGyro-meanFreq()-X\
+{\listtext	68)	}fBodyGyro-meanFreq()-Y\
+{\listtext	69)	}fBodyGyro-meanFreq()-Z\
+{\listtext	70)	}fBodyAccMag-mean()\
+{\listtext	71)	}fBodyAccMag-std()\
+{\listtext	72)	}fBodyAccMag-meanFreq()\
+{\listtext	73)	}fBodyBodyAccJerkMag-mean()\
+{\listtext	74)	}fBodyBodyAccJerkMag-std()\
+{\listtext	75)	}fBodyBodyAccJerkMag-meanFreq()\
+{\listtext	76)	}fBodyBodyGyroMag-mean()\
+{\listtext	77)	}fBodyBodyGyroMag-std()\
+{\listtext	78)	}fBodyBodyGyroMag-meanFreq()\
+{\listtext	79)	}fBodyBodyGyroJerkMag-mean()\
+{\listtext	80)	}fBodyBodyGyroJerkMag-std()\
+{\listtext	81)	}fBodyBodyGyroJerkMag-meanFreq()\
+{\listtext	82)	}activityType\cf4 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+\cf5 \
+
+\i\b \cf4 Variable units:\
+
+\i0\b0 ActivityId and subjectId variables are integer type. All the other variables are numeric type.\
+\
+}
